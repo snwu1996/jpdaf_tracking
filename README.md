@@ -1,6 +1,8 @@
 # Joint Probabilistic Data Association Tracking (JPDAFTracker)
 JPDAFTracker is a tracker based on joint probabilistic data association filtering.
 
+This is a ros wrapper for the algoritm above
+
 <p align="center">
 <a href="https://www.youtube.com/watch?v=KlXpaKh8hDY"  target="_blank"><img src="https://img.youtube.com/vi/KlXpaKh8hDY/0.jpg"/></a>
 </p>
@@ -12,12 +14,7 @@ JPDAFTracker is a tracker based on joint probabilistic data association filterin
 
 ## How to build
 
-JPDAFTracker works under Linux environments. I recommend a so-called out of source build which can be achieved by the following command sequence:
-
-* mkdir build
-* cd build
-* cmake ../
-* make -j<number-of-cores+1>
+TBD
 
 ## Params
 ```bash
@@ -61,7 +58,4 @@ JPDAFTracker works under Linux environments. I recommend a so-called out of sour
 
 ## How to use
 
-Go to the bin diretory and launch the program with the following command:
-```bash
-./jpdaf_tracker ../config/kalman_param.txt /path/to/the/detection_file.txt /path/to/the/image_folder 
-```
+tbd
