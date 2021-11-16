@@ -37,10 +37,10 @@
 #include <opencv2/core/eigen.hpp>
 #include <numeric>
 
-#include "track.h"
-#include "tracker_param.h"
-#include "detection.h"
-#include "hungarianAlg.h"
+#include "jpdaf_tracker/track.h"
+#include "jpdaf_tracker/tracker_param.h"
+#include "jpdaf_tracker/detection.h"
+#include "jpdaf_tracker/hungarianAlg.h"
 
 namespace JPDAFTracker
 {

@@ -37,8 +37,8 @@
 #include <opencv2/core/eigen.hpp>
 #include <numeric>
 
-#include "tracker.h"
-#include "local_tracker.h"
+#include "jpdaf_tracker/tracker.h"
+#include "jpdaf_tracker/local_tracker.h"
 
 namespace JPDAFTracker
 {

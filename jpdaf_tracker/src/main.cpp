@@ -8,9 +8,9 @@ namespace fs = std::filesystem;
 namespace fs = std::experimental::filesystem;
 #endif
 
-#include "tracker.h"
-#include "global_tracker.h"
-#include "detection.h"
+#include "jpdaf_tracker/tracker.h"
+#include "jpdaf_tracker/global_tracker.h"
+#include "jpdaf_tracker/detection.h"
 
 
 std::map<int, std::vector< std::vector< std::string > > > petsReading(const std::string& _gt)

@@ -1,7 +1,7 @@
 #ifndef _LOCAL_TRACKER_
 #define _LOCAL_TRACKER_
 
-#include "tracker.h"
+#include "jpdaf_tracker/tracker.h"
 
 namespace JPDAFTracker
 {
