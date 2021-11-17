@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.0.2)
 project(jpdaf_tracker)
 
 find_package(catkin REQUIRED COMPONENTS
-  ddynamic_reconfigure
   roscpp
   rospy
+  ddynamic_reconfigure
   sensor_msgs
   std_msgs
   vision_msgs
@@ -13,6 +13,17 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(Eigen3 REQUIRED)
 find_package(OpenCV REQUIRED)
 
+# Catkin specific configuration
+catkin_package(CATKIN_DEPENDS
+  roscpp
+  rospy
+  ddynamic_reconfigure
+  sensor_msgs
+  std_msgs
+  vision_msgs
+)
+
+# Build
 include_directories(
   include
   ${catkin_INCLUDE_DIRS}
